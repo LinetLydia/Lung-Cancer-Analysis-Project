@@ -13,19 +13,19 @@ The dataset combines both numerical and categorical variables, making it suitabl
 
 Before modeling, the dataset underwent several preprocessing steps to ensure accuracy and consistency:
 
-Handling missing values using median imputation.
+  1. Handling missing values using median imputation.
 
-Encoding categorical features (e.g., gender, smoking status, cancer stage) using label encoding.
+  2. Encoding categorical features (e.g., gender, smoking status, cancer stage) using label encoding.
 
-Scaling numerical features to normalize the data.
+  3. Scaling numerical features to normalize the data.
 
-Creating additional engineered features, including:
+  4. Creating additional engineered features, including:
 
-Age Group (categorized as Young, Adult, Senior, Elder)
+  5. Age Group (categorized as Young, Adult, Senior, Elder)
 
-BMI Category (Underweight, Normal, Overweight, Obese)
+  6. BMI Category (Underweight, Normal, Overweight, Obese)
 
-Health Risk Score based on hypertension, asthma, cirrhosis, and other cancer indicators.
+  7. Health Risk Score based on hypertension, asthma, cirrhosis, and other cancer indicators.
 
 These steps helped prepare a clean, structured dataset for model training.
 
@@ -67,7 +67,7 @@ The classification model proved more effective than the regression model, making
 
 ## Conclusion
 
-This project successfully demonstrated a full data science workflow — from data cleaning and feature engineering to model development and evaluation — applied to a medical dataset.
+This project successfully demonstrated a full data science workflow, from data cleaning and feature engineering to model development and evaluation, applied to a medical dataset.
 The Logistic Regression model showed the best performance in predicting patient survival, achieving nearly 78% accuracy.
 While the regression task revealed limitations in linear assumptions, both analyses provided valuable insights into the relationships between health indicators and lung cancer outcomes.
 
